@@ -1,0 +1,76 @@
+{
+  "user": {
+    "name": "Dimitri Belopopsky",
+    "education": [
+      {
+        "place": "Université Paris-Saclay",
+        "diploma": "Master in Human-Computer Interaction",
+        "url": "https://www.universite-paris-saclay.fr/en/education/master/computer-science/m2-human-computer-interaction"
+      },
+      {
+        "place": "Université Paris-Sud/Paris-Saclay",
+        "diploma": "Bachelor in Computer Science",
+        "url": "https://www.universite-paris-saclay.fr"
+      }
+    ],
+    "subtitle": "while (newProjectIdea()) { unfininshedProjects++; }",
+    "description": "Interested in Interaction Design, Computer Graphics, Video Games and Programming."
+  },
+  "social_links": [
+    "https://github.com/shadowmitia",
+    "https://twitter.com/shadowmitia",
+    "https://dev.to/shadowmitia",
+    "https://stackoverflow.com/users/3313819/shadowmitia",
+    "https://www.linkedin.com/in/dimitribelopopsky/",
+    "instagram.com/shadowmitia/",
+    "twitch.tv/shadowmitia"
+  ],
+  "projects": [
+    {
+      "title": "AR Spells",
+      "slug": "ar-spells",
+      "summary": "An interactive augmented reality game on Microsoft’s Hololens which combines a tower-defense style game with a crafting system to create spells using tangibles.",
+      "description": [
+        "“AR Spells” is an interactive augmented reality game on Microsoft’s Hololens which combines a tower-defense style game with a crafting system to create spells using tangibles.",
+        "",
+        "The goal of our work was to build an augmented reality application with tangible interactions using Hololens.",
+        "We propose “AR Spells” a game where the user can interact with a augmented reality map by killing the monsters using tangible interaction to select the right spell.",
+        "The paper retraces the creation of the application from the source of its conception to its technological design.",
+        "The project was presented during the 2019 exhibition from students of the Master in Human Computer Interaction and Design.",
+        "The evaluation and possible evolution imagined after this exhibition are presented as well.",
+        "",
+        "Created by :",
+        "",
+        "- Dimitri Belopopsky",
+        "- Adèle Colas",
+        "- Emmanuel Courtoux",
+        "- Matija Veljkovic"
+      ],
+      "featured_image": "featured.jpg"
+    },
+    {
+      "title": "Pong Pang Ping",
+      "slug": "festival-curiositas-2014-pong-pang-ping",
+      "summary": "Il s’agit d’une oeuvre interactive où 2 personnes avec des raquettes de ping-pong jouent avec une balle virtuelle projetée sur une table par un projecteur.",
+      "featured_image": "featured.jpg"
+    },
+    {
+      "title": "Par Fumée Tu Joueras",
+      "slug": "festival-curiositas-2015-par-fumée-tu-joueras",
+      "summary": "Summary of 'Par Fumée Tu Joueras'",
+      "featured_image": "featured.png"
+    },
+    {
+      "title": "Mirror Mirror",
+      "slug": "festival-curiositas-2017-mirror-mirror",
+      "summary": "Devant un miroir, on s’observe, on s’analyse, on se connait. Pourtant ce n’est pas votre simple reflet que Mirror Mirror vous renvoie !",
+      "featured_image": "featured.png"
+    },
+    {
+      "title": "Nuages ordonnées",
+      "slug": "festival-curiositas-2017-nuages-ordonnées",
+      "summary": "Un environnement numérique qui peut être modifié et même perturbé directement de par nos mouvements. Un nuage sensible à son entourage, interagit avec notre silhouette, mute et se métamorphose entre ordre et désordre apparent pour s’adapter au mieux possible à nos actions. Qui crée le désordre ?",
+      "featured_image": "featured.png"
+    }
+  ]
+}
