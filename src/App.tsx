@@ -184,7 +184,8 @@ export function App(props: RouteComponentProps) {
             <div className="space-y">
               <p className="name">Dimitri Belopopsky</p>
               <p className="name-description">
-                HCI | Game Development | Programming
+                Interested in Interaction Design, Computer Graphics, Video Games
+                and Programming.
               </p>
             </div>
             <div className="social_links">
