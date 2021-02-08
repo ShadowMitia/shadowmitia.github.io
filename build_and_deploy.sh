@@ -13,7 +13,7 @@ git worktree prune
 rm -rf .git/worktrees/dist/
 
 echo "Checking out gh-pages branch into public"
-git worktree add -B gh-pages dist origin/gh-pages
+git worktree add -B published dist origin/published
 
 echo "Removing existing files"
 rm -rf dist/*
