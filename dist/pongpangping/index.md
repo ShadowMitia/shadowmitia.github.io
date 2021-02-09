@@ -3,6 +3,7 @@ published = true
 title = "Pongpangping"
 published_date = "2014-12-20" # year-month-date or other format see here https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Date/parse#date_time_string_format
 tags = ["game jam", "Global Game Jam"]
+summary = "Projet etudiant CURIOSITas 2014"
 =======
 
 Thème: “Science fiction - Fiction de la science”. - Projet étudiant CURIOSITas 2014
