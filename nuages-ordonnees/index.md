@@ -3,6 +3,7 @@ published = true
 title = "Nuages Ordonnées"
 published_date = "2019-01-19" # year-month-date or other format see here https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Date/parse#date_time_string_format
 tags = ["game jam", "Global Game Jam"]
+summary = "Projet etudiant CURIOSITas 2017"
 
 =======
 

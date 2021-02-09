@@ -3,6 +3,7 @@ published = true
 title = "Primrose"
 published_date = "2021-02-01" # year-month-date or other format see here https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Date/parse#date_time_string_format
 tags = ["game jam", "Global Game Jam"]
+summary = "A game made for Global Game Jam 2021"
 =======
 
 A game made for Global Game Jam 2021 ! (Theme : Lost and Found)
@@ -12,6 +13,7 @@ A game made for Global Game Jam 2021 ! (Theme : Lost and Found)
 You're an alien called Primrose. You arrive on Earth and everything is black and white and all humans are sad. 
 They've all lost an object important to them and you decide to go and find them, and recolor everyone's lives!
 
+Made by :
 - Marie "Mays" Cransac : Graphics, Game Design, Sound Design
 - Dimitri "ShadowMitia" Belopopsky : Progrmaming
 
