@@ -9,8 +9,7 @@ summary = "Master project for the photorealistic rendering class."
 A CPU raytracer project made through weekly assignements.
 
 It covers techniques to render scenes made of primitives and objcts, and global illumination.
-
-It also covers some introduction to non-photorealistic rendering too (Gooch model).
+It also covers some introduction to non-photorealistic rendering too.
 
 [Source code](https://github.com/ShadowMitia/raytracer-upsud)
 
