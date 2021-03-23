@@ -21,6 +21,10 @@ rm -rf dist/*
 echo "Generating site"
 yarn build --base ./
 
+echo "Removing .jpg and .png files"
+find dist -name "*.jpg" -type f -delete
+find dist -name "*.png" -type f -delete
+
 echo "Updating gh-pages branch"
 cd dist && git add --all && git commit -m "Publishing to gh-pages (dist_and_deploy.sh)"
 

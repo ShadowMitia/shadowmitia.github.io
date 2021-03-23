@@ -7,6 +7,9 @@ import toml
 import re
 import mmap
 
+from PIL import Image
+import PIL
+
 dirs = []
 for (dirpath, dirnames, filenames) in walk("public/"):
     dirs.extend(dirnames)
@@ -62,7 +65,31 @@ for directory in dirs:
     projects.append(project)
 
 
-print(projects)
+print("Converting images to WebP")
+# TODO: multithread this
+# Change all images to WebP
+for project in projects:
+    slug = project["slug"]
+    if "featured_image" in project:
+        img = project["featured_image"]
+        image = Image.open(f"public/{slug}/{img}")
+        image = image.convert('RGB')
+        filename = img.split(".")[0] + ".webp"
+        image.save(f"public/{slug}/{filename}", format = "WebP")
+        project["featured_image"] = filename
+
+    if "album" in project:
+        new_album = []
+        for image in project["album"]:
+            if not image.endswith((".jpg", ".png")):
+                continue
+            img = image
+            image = Image.open(f"public/{slug}/album/{img}")
+            image = image.convert('RGB')
+            filename = img.split(".")[0] + ".webp"
+            image.save(f"public/{slug}/album/{filename}", format = "WebP")
+            new_album.append(filename)
+        project["album"] = new_album
 
 data = {
     "projects": projects
@@ -70,3 +97,5 @@ data = {
 
 with open("public/data.json", "w", encoding='utf8') as write_file:
     json.dump(data, write_file, ensure_ascii=False)
+
+

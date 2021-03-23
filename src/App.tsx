@@ -6,11 +6,25 @@ import { Link, RouteComponentProps, useParams } from "@reach/router";
 import Carousel from "react-elastic-carousel";
 
 import { IconName, library, SizeProp } from "@fortawesome/fontawesome-svg-core";
-import { fab } from "@fortawesome/free-brands-svg-icons";
+import {
+  faGithub,
+  faTwitch,
+  faTwitter,
+  faStackOverflow,
+  faLinkedin,
+} from "@fortawesome/free-brands-svg-icons";
 import { faFilePdf, faFilm, faImages } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
-library.add(fab, faFilePdf, faFilm);
+library.add(
+  faGithub,
+  faTwitch,
+  faTwitter,
+  faStackOverflow,
+  faLinkedin,
+  faFilePdf,
+  faFilm
+);
 
 import data from "../public/data.json";
 
@@ -149,7 +163,12 @@ export function ProjectPage(props: ProjectPageProps) {
             })}
           </Carousel>
         )}
-        {text !== "" && <div className="project-description" dangerouslySetInnerHTML={{ __html: text }}></div>}
+        {text !== "" && (
+          <div
+            className="project-description"
+            dangerouslySetInnerHTML={{ __html: text }}
+          ></div>
+        )}
       </article>
     </>
   );
