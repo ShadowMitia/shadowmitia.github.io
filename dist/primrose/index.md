@@ -15,7 +15,7 @@ They've all lost an object important to them and you decide to go and find them,
 
 Made by :
 - Marie "Mays" Cransac : Graphics, Game Design, Sound Design
-- Dimitri "ShadowMitia" Belopopsky : Progrmaming
+- Dimitri "ShadowMitia" Belopopsky : Programming
 
 Special thanks to 
 

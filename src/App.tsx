@@ -149,7 +149,7 @@ export function ProjectPage(props: ProjectPageProps) {
             })}
           </Carousel>
         )}
-        {text !== "" && <div dangerouslySetInnerHTML={{ __html: text }}></div>}
+        {text !== "" && <div className="project-description" dangerouslySetInnerHTML={{ __html: text }}></div>}
       </article>
     </>
   );
