@@ -26,7 +26,10 @@ find dist -name "*.jpg" -type f -delete
 find dist -name "*.png" -type f -delete
 
 echo "Updating gh-pages branch"
-cd dist && git add --all && git commit -m "Publishing to gh-pages (dist_and_deploy.sh)"
+cd dist && git add --all && git commit -m "Publishing to gh-pages (build_and_deploy.sh)"
+
+git subtree push --prefix dist origin published
+
 
 #echo "Pushing to github"
 #git push --all
