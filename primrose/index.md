@@ -10,12 +10,12 @@ A game made for Global Game Jam 2021 ! (Theme : Lost and Found)
 
 [Play the game here](https://shadowmitia.github.io/Primrose)
 
-You're an alien called Primrose. You arrive on Earth and everything is black and white and all humans are sad. 
+You're an alien called Primrose. You arrive on Earth where everything is black and white and all humans are sad. 
 They've all lost an object important to them and you decide to go and find them, and recolor everyone's lives!
 
 Made by :
 - Marie "Mays" Cransac : Graphics, Game Design, Sound Design
-- Dimitri "ShadowMitia" Belopopsky : Programming
+- Dimitri "ShadowMitia" Belopopsky : Programming, Game Design
 
 Special thanks to 
 
