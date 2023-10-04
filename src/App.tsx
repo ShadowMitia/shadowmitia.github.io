@@ -9,7 +9,7 @@ import { IconName, library, SizeProp } from "@fortawesome/fontawesome-svg-core";
 import {
   faGithub,
   faTwitch,
-  faTwitter,
+  faMastodon,
   faStackOverflow,
   faLinkedin,
 } from "@fortawesome/free-brands-svg-icons";
@@ -19,7 +19,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 library.add(
   faGithub,
   faTwitch,
-  faTwitter,
+  faMastodon,
   faStackOverflow,
   faLinkedin,
   faFilePdf,
@@ -30,7 +30,7 @@ import data from "../public/data.json";
 
 const social_links = [
   "https://github.com/shadowmitia",
-  "https://twitter.com/shadowmitia",
+  "mastodon.social/shadowmitia",
   "https://stackoverflow.com/users/3313819/shadowmitia",
   "https://www.linkedin.com/in/dimitribelopopsky/",
   "twitch.tv/shadowmitia",
@@ -86,8 +86,16 @@ const SocialIcon: FunctionComponent<SocialIconProps> = ({
   const s = size ? size : "xs";
   const name = getSocialNameFromURL(url);
 
+    var extraProps = {};
+
+    if (name === "mastodon") {
+	extraProps["rel"] = "me";
+    }
+
+    console.log(extraProps);
+
   return (
-    <a className={className} href={url}>
+      <a {...extraProps} className={className} href={url}>
       <FontAwesomeIcon
         className="fontawesomeicon"
         icon={["fab", name as IconName]}
