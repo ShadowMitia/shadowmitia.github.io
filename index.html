@@ -4,16 +4,12 @@
     <meta charset="utf-8" />
     <title>Dimitri Belopopsky</title>
     <link rel="stylesheet" href="/index.css" />
-    
+
 
     <svg style="display: none">
       <!-- icons here -->
 
-      <symbol id="icon-twitter" viewBox="0 0 32 32">
-        <path
-          d="M32 7.075c-1.175 0.525-2.444 0.875-3.769 1.031 1.356-0.813 2.394-2.1 2.887-3.631-1.269 0.75-2.675 1.3-4.169 1.594-1.2-1.275-2.906-2.069-4.794-2.069-3.625 0-6.563 2.938-6.563 6.563 0 0.512 0.056 1.012 0.169 1.494-5.456-0.275-10.294-2.888-13.531-6.862-0.563 0.969-0.887 2.1-0.887 3.3 0 2.275 1.156 4.287 2.919 5.463-1.075-0.031-2.087-0.331-2.975-0.819 0 0.025 0 0.056 0 0.081 0 3.181 2.263 5.838 5.269 6.437-0.55 0.15-1.131 0.231-1.731 0.231-0.425 0-0.831-0.044-1.237-0.119 0.838 2.606 3.263 4.506 6.131 4.563-2.25 1.762-5.075 2.813-8.156 2.813-0.531 0-1.050-0.031-1.569-0.094 2.913 1.869 6.362 2.95 10.069 2.95 12.075 0 18.681-10.006 18.681-18.681 0-0.287-0.006-0.569-0.019-0.85 1.281-0.919 2.394-2.075 3.275-3.394z"
-        ></path>
-      </symbol>
+      <svg id="icon-mastodon" role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><title>Mastodon</title><path d="M23.268 5.313c-.35-2.578-2.617-4.61-5.304-5.004C17.51.242 15.792 0 11.813 0h-.03c-3.98 0-4.835.242-5.288.309C3.882.692 1.496 2.518.917 5.127.64 6.412.61 7.837.661 9.143c.074 1.874.088 3.745.26 5.611.118 1.24.325 2.47.62 3.68.55 2.237 2.777 4.098 4.96 4.857 2.336.792 4.849.923 7.256.38.265-.061.527-.132.786-.213.585-.184 1.27-.39 1.774-.753a.057.057 0 0 0 .023-.043v-1.809a.052.052 0 0 0-.02-.041.053.053 0 0 0-.046-.01 20.282 20.282 0 0 1-4.709.545c-2.73 0-3.463-1.284-3.674-1.818a5.593 5.593 0 0 1-.319-1.433.053.053 0 0 1 .066-.054c1.517.363 3.072.546 4.632.546.376 0 .75 0 1.125-.01 1.57-.044 3.224-.124 4.768-.422.038-.008.077-.015.11-.024 2.435-.464 4.753-1.92 4.989-5.604.008-.145.03-1.52.03-1.67.002-.512.167-3.63-.024-5.545zm-3.748 9.195h-2.561V8.29c0-1.309-.55-1.976-1.67-1.976-1.23 0-1.846.79-1.846 2.35v3.403h-2.546V8.663c0-1.56-.617-2.35-1.848-2.35-1.112 0-1.668.668-1.67 1.977v6.218H4.822V8.102c0-1.31.337-2.35 1.011-3.12.696-.77 1.608-1.164 2.74-1.164 1.311 0 2.302.5 2.962 1.498l.638 1.06.638-1.06c.66-.999 1.65-1.498 2.96-1.498 1.13 0 2.043.395 2.74 1.164.675.77 1.012 1.81 1.012 3.12z"/></svg>
 
       <symbol id="icon-github" viewBox="0 0 32 32">
         <path
@@ -44,7 +40,7 @@
   </head>
 
   <body>
-    
+
 <header>
   <a href="/"><h1>Dimitri Belopopsky</h1></a>
 </header>
@@ -52,28 +48,28 @@
 <div class="side-by-side">
   <div class="sidebar">
     <header>
-      
+
       <h2>
         Interaction design and interactive computer graphics.
       </h2>
     </header>
 
-    
+
     <nav class="social-links-nav">
       <ul role="list">
         <li>
-          <a href="https:&#x2F;&#x2F;twitter.com&#x2F;shadowmitia"
+          <a rel="me" href="https:&#x2F;&#x2F;mastodon.social&#x2F;@shadowmitia"
             ><svg
               aria-hidden="true"
               focusable="false"
               width="24"
               height="24"
               fill="currentColor"
-              class="icon icon-twitter"
+              class="icon icon-mastodon"
             >
-              <use href="#icon-twitter"></use>
+              <use href="#icon-mastodon"></use>
             </svg>
-            Twitter</a
+            Mastodon</a
           >
         </li>
         <li>
@@ -138,152 +134,152 @@
         </li>
       </ul>
     </nav>
-    
+
     </div>
 
   <main>
     <ul data-component class="smol-css-grid" role="list">
-      
+
       <a class="link" href="&#x2F;apps&#x2F;steam-randomiser&#x2F;">
         <li data-component class="smol-card-component">
 
           <img src="&#x2F;apps&#x2F;steam-randomiser&#x2F;/featured.webp" alt="" />
           <h3>Steam randomiser (<time datetime="2021-04-15">2021</time>)          </h3>
-          
+
         </li>
       </a>
-    
-      
+
+
       <a class="link" href="&#x2F;projects&#x2F;primrose&#x2F;">
         <li data-component class="smol-card-component">
 
           <img src="&#x2F;projects&#x2F;primrose&#x2F;/featured.webp" alt="" />
           <h3>Primrose (<time datetime="2021-02-01">2021</time>)          </h3>
-          
+
         </li>
       </a>
-    
-      
+
+
       <a class="link" href="&#x2F;projects&#x2F;ludumdare46&#x2F;">
         <li data-component class="smol-card-component">
 
           <img src="&#x2F;projects&#x2F;ludumdare46&#x2F;/featured.webp" alt="" />
           <h3>Casual Hiking (<time datetime="2020-04-22">2020</time>)          </h3>
-          
+
         </li>
       </a>
-    
-      
+
+
       <a class="link" href="&#x2F;projects&#x2F;ar-spells&#x2F;">
         <li data-component class="smol-card-component">
 
           <img src="&#x2F;projects&#x2F;ar-spells&#x2F;/featured.webp" alt="" />
           <h3>Master Project : AR Spells (<time datetime="2019-11-27">2019</time>)          </h3>
-          
+
         </li>
       </a>
-    
-      
+
+
       <a class="link" href="&#x2F;projects&#x2F;raytracer-upsud&#x2F;">
         <li data-component class="smol-card-component">
 
           <img src="&#x2F;projects&#x2F;raytracer-upsud&#x2F;/featured.webp" alt="" />
           <h3>Master project : Raytracer (<time datetime="2019-02-19">2019</time>)          </h3>
-          
+
         </li>
       </a>
-    
-      
+
+
       <a class="link" href="&#x2F;projects&#x2F;mirrormirror&#x2F;">
         <li data-component class="smol-card-component">
 
           <img src="&#x2F;projects&#x2F;mirrormirror&#x2F;/featured.webp" alt="" />
           <h3>CURIOSitas : Mirror Mirror (<time datetime="2019-01-19">2019</time>)          </h3>
-          
+
         </li>
       </a>
-    
-      
+
+
       <a class="link" href="&#x2F;projects&#x2F;nuagesordonnes&#x2F;">
         <li data-component class="smol-card-component">
 
           <img src="&#x2F;projects&#x2F;nuagesordonnes&#x2F;/featured.webp" alt="" />
           <h3>CURIOSITas : Nuages ordonnés (<time datetime="2019-01-19">2019</time>)          </h3>
-          
+
         </li>
       </a>
-    
-      
+
+
       <a class="link" href="&#x2F;projects&#x2F;through-mishas-eyes&#x2F;">
         <li data-component class="smol-card-component">
 
           <img src="&#x2F;projects&#x2F;through-mishas-eyes&#x2F;/featured.webp" alt="" />
           <h3>Through Misha&#x27;s eyes (<time datetime="2017-10-30">2017</time>)          </h3>
-          
+
         </li>
       </a>
-    
-      
+
+
       <a class="link" href="&#x2F;projects&#x2F;burglar&#x2F;">
         <li data-component class="smol-card-component">
 
           <img src="&#x2F;projects&#x2F;burglar&#x2F;/featured.webp" alt="" />
           <h3>B.U.R.G.L.A.R. (<time datetime="2017-10-29">2017</time>)          </h3>
-          
+
         </li>
       </a>
-    
-      
+
+
       <a class="link" href="&#x2F;projects&#x2F;grande-vitrine-de-noel&#x2F;">
         <li data-component class="smol-card-component">
 
           <img src="&#x2F;projects&#x2F;grande-vitrine-de-noel&#x2F;/featured.webp" alt="" />
           <h3>La grande vitrine de Noël (<time datetime="2016-09-19">2016</time>)          </h3>
-          
+
         </li>
       </a>
-    
-      
+
+
       <a class="link" href="&#x2F;projects&#x2F;parfumeetujoueras&#x2F;">
         <li data-component class="smol-card-component">
 
           <img src="&#x2F;projects&#x2F;parfumeetujoueras&#x2F;/featured.webp" alt="" />
           <h3>CURIOSITas : Par fumée tu joueras (<time datetime="2015-09-30">2015</time>)          </h3>
-          
+
         </li>
       </a>
-    
-      
+
+
       <a class="link" href="&#x2F;projects&#x2F;pongpangping&#x2F;">
         <li data-component class="smol-card-component">
 
           <img src="&#x2F;projects&#x2F;pongpangping&#x2F;/featured.webp" alt="" />
           <h3>CURIOSITas : Pong Pang Ping (<time datetime="2014-12-20">2014</time>)          </h3>
-          
+
         </li>
       </a>
-    
-      
+
+
       <a class="link" href="&#x2F;projects&#x2F;wall-holo&#x2F;">
         <li data-component class="smol-card-component">
 
           <img src="&#x2F;projects&#x2F;wall-holo&#x2F;/featured.webp" alt="" />
           <h3>Wall-holo (<time datetime="2014-12-09">2014</time>)          </h3>
-          
+
         </li>
       </a>
-    
-      
+
+
       <a class="link" href="&#x2F;projects&#x2F;ascend&#x2F;">
         <li data-component class="smol-card-component">
 
           <img src="&#x2F;projects&#x2F;ascend&#x2F;/featured.webp" alt="" />
           <h3>Ascend (<time datetime="2014-02-10">2014</time>)          </h3>
-          
+
         </li>
       </a>
-    
-      
+
+
     </ul>
   </main>
 </div>
