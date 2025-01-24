@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+            <channel>
+                <title>ShadowMitia.eu</title>
+                <description>ShadowMitia's website</description>
+                <link>http://www.shadowmitia.eu</link>
+                <atom:link
+            href="http://shadowmitia.eu/feed.xml"
+            rel="self"
+            type="application/rss+xml"
+        />
+
+            <lastBuildDate>Fri, 24 Jan 2025 12:00:23 +0000</lastBuildDate>
+            <item>
+                        <title>Pongpangping</title>
+                        <link
+            >https://shadowmitia.eu/projects/pongpangping</link>
+                        <guid
+            >https://shadowmitia.eu/projects/pongpangping</guid>
+                        <pubDate>Sat, 20 Dec 2014 00:00:00 -0000</pubDate>
+                        </item><item>
+                        <title>Nuages Ordonnées</title>
+                        <link
+            >https://shadowmitia.eu/projects/nuages-ordonnes</link>
+                        <guid
+            >https://shadowmitia.eu/projects/nuages-ordonnes</guid>
+                        <pubDate>Sat, 19 Jan 2019 00:00:00 -0000</pubDate>
+                        </item><item>
+                        <title>Truly Teeny Tiny Bakery</title>
+                        <link
+            >https://shadowmitia.eu/projects/truly-teeny-tiny-bakery</link>
+                        <guid
+            >https://shadowmitia.eu/projects/truly-teeny-tiny-bakery</guid>
+                        <pubDate>Wed, 04 Oct 2023 00:00:00 -0000</pubDate>
+                        </item><item>
+                        <title>Through Misha's eyes</title>
+                        <link
+            >https://shadowmitia.eu/projects/through-mishas-eyes</link>
+                        <guid
+            >https://shadowmitia.eu/projects/through-mishas-eyes</guid>
+                        <pubDate>Mon, 30 Oct 2017 00:00:00 -0000</pubDate>
+                        </item><item>
+                        <title>Steam Randomiser</title>
+                        <link
+            >https://shadowmitia.eu/projects/steam-randomiser</link>
+                        <guid
+            >https://shadowmitia.eu/projects/steam-randomiser</guid>
+                        <pubDate>Thu, 15 Apr 2021 00:00:00 -0000</pubDate>
+                        </item><item>
+                        <title>Raytracer</title>
+                        <link
+            >https://shadowmitia.eu/projects/raytracer-upsud</link>
+                        <guid
+            >https://shadowmitia.eu/projects/raytracer-upsud</guid>
+                        <pubDate>Tue, 19 Feb 2019 00:00:00 -0000</pubDate>
+                        </item><item>
+                        <title>Primrose</title>
+                        <link>https://shadowmitia.eu/projects/primrose</link>
+                        <guid>https://shadowmitia.eu/projects/primrose</guid>
+                        <pubDate>Mon, 01 Feb 2021 00:00:00 -0000</pubDate>
+                        </item><item>
+                        <title>Straight to the Web</title>
+                        <link
+            >https://shadowmitia.eu/projects/straight-to-the-web</link>
+                        <guid
+            >https://shadowmitia.eu/projects/straight-to-the-web</guid>
+                        <pubDate>Mon, 27 May 2024 00:00:00 -0000</pubDate>
+                        </item><item>
+                        <title>Interactive Father Christmas</title>
+                        <link
+            >https://shadowmitia.eu/projects/grande-vitrine-de-noel</link>
+                        <guid
+            >https://shadowmitia.eu/projects/grande-vitrine-de-noel</guid>
+                        <pubDate>Mon, 19 Sep 2016 00:00:00 -0000</pubDate>
+                        </item><item>
+                        <title>Mirror mirror</title>
+                        <link
+            >https://shadowmitia.eu/projects/mirrormirror</link>
+                        <guid
+            >https://shadowmitia.eu/projects/mirrormirror</guid>
+                        <pubDate>Sat, 19 Jan 2019 00:00:00 -0000</pubDate>
+                        </item><item>
+                        <title>Finders, Creatures</title>
+                        <link
+            >https://shadowmitia.eu/projects/finders-creatures</link>
+                        <guid
+            >https://shadowmitia.eu/projects/finders-creatures</guid>
+                        <pubDate>Thu, 10 Oct 2024 00:00:00 -0000</pubDate>
+                        </item><item>
+                        <title>AR Spells</title>
+                        <link>https://shadowmitia.eu/projects/ar-spells</link>
+                        <guid>https://shadowmitia.eu/projects/ar-spells</guid>
+                        <pubDate>Sat, 19 Jan 2019 00:00:00 -0000</pubDate>
+                        </item><item>
+                        <title>Par Fumée Tu Joueras</title>
+                        <link
+            >https://shadowmitia.eu/projects/par-fumee-tu-joueras</link>
+                        <guid
+            >https://shadowmitia.eu/projects/par-fumee-tu-joueras</guid>
+                        <pubDate>Wed, 16 Jan 2019 00:00:00 -0000</pubDate>
+                        </item><item>
+                        <title>Casual Hike</title>
+                        <link>https://shadowmitia.eu/projects/casual-hike</link>
+                        <guid>https://shadowmitia.eu/projects/casual-hike</guid>
+                        <pubDate>Wed, 22 Apr 2020 00:00:00 -0000</pubDate>
+                        </item><item>
+                        <title>B.U.R.G.L.A.R</title>
+                        <link>https://shadowmitia.eu/projects/burglar</link>
+                        <guid>https://shadowmitia.eu/projects/burglar</guid>
+                        <pubDate>Sun, 29 Oct 2017 00:00:00 -0000</pubDate>
+                        </item><item>
+                        <title>Ascend</title>
+                        <link>https://shadowmitia.eu/projects/ascend</link>
+                        <guid>https://shadowmitia.eu/projects/ascend</guid>
+                        <pubDate>Mon, 10 Feb 2014 00:00:00 -0000</pubDate>
+                        </item><item>
+                        <title>Wall-Holo</title>
+                        <link>https://shadowmitia.eu/projects/wall-holo</link>
+                        <guid>https://shadowmitia.eu/projects/wall-holo</guid>
+                        <pubDate>Tue, 09 Dec 2014 00:00:00 -0000</pubDate>
+                        </item>
+
+    </channel>
+
+    </rss>
